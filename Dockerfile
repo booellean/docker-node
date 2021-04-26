@@ -1,4 +1,4 @@
-FROM node:14.16.1-alpine3.13
+FROM node:12.22.1-alpine3.12
 
 # Add persistent packages
 RUN apk add --no-cache \
