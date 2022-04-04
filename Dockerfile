@@ -1,7 +1,7 @@
-FROM node:16.9.1-alpine3.12
+FROM node:16.14-alpine3.14
 
 # Add persistent packages
 RUN apk --update add --no-cache \
-            imagemagick
+        imagemagick
 
 WORKDIR /var/www
